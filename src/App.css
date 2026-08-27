@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #080808;
+  color: white;
+}
+
+.navbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7%;
+  background: #111;
+}
+
+.navbar h1 {
+  font-size: 24px;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.login-btn,
+.explore-btn,
+.movie-details button {
+  border: none;
+  padding: 11px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero {
+  min-height: 550px;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  background:
+    linear-gradient(90deg, #080808 25%, transparent),
+    url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba")
+    center / cover;
+}
+
+.hero-content h2 {
+  font-size: 55px;
+  line-height: 1.05;
+  margin: 15px 0;
+}
+
+.hero-content > p:first-child {
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+
+.description {
+  color: #ccc;
+  max-width: 450px;
+  line-height: 1.6;
+}
+
+.explore-btn {
+  margin-top: 25px;
+}
+
+.movies {
+  padding: 60px 7%;
+}
+
+.section-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.section-title span {
+  color: #aaa;
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.movie-card {
+  background: #151515;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.poster {
+  height: 360px;
+  background-size: cover;
+  background-position: center;
+}
+
+.poster-one {
+  background-image: url("https://images.unsplash.com/photo-1485846234645-a62644f84728");
+}
+
+.poster-two {
+  background-image: url("https://images.unsplash.com/photo-1440404653325-ab127d49abc1");
+}
+
+.poster-three {
+  background-image: url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba");
+}
+
+.movie-details {
+  padding: 18px;
+}
+
+.movie-details p {
+  color: #999;
+  margin: 8px 0 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+  background: #111;
+  color: #aaa;
+}
+
+@media (max-width: 800px) {
+
+  .navbar nav {
+    display: none;
+  }
+
+  .hero-content h2 {
+    font-size: 40px;
+  }
+
+  .movie-container {
+    grid-template-columns: 1fr;
+  }
+}
+.movie-details button {
+  background: white;
+  color: black;
+}
+
+.login-btn {
+  background: white;
+  color: black;
+}
+
+.explore-btn {
+  background: white;
+  color: black;
+}
+.navbar h1 {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+footer h2 {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+.booking-section {
+  background: #111;
+  margin: 40px auto;
+  padding: 35px;
+  max-width: 750px;
+  border-radius: 18px;
+  text-align: center;
+  color: white;
+}
+
+.close-booking {
+  float: right;
+  background: transparent;
+  border: 1px solid #555;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.booking-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.time-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 20px 0 30px;
+}
+
+.time {
+  background: #222;
+  color: white;
+  border: 1px solid #555;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.time:hover,
+.time.selected {
+  background: white;
+  color: black;
+}
+
+.screen {
+  background: white;
+  color: black;
+  padding: 8px;
+  margin: 20px auto;
+  max-width: 350px;
+  border-radius: 50%;
+}
+
+.seat-container {
+  display: grid;
+  grid-template-columns: repeat(4, 55px);
+  justify-content: center;
+  gap: 12px;
+  margin: 25px 0;
+}
+
+.seat {
+  background: #222;
+  color: white;
+  border: 1px solid #555;
+  padding: 12px 5px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.seat:hover {
+  background: #444;
+}
+
+.selected-seat {
+  background: white;
+  color: black;
+}
+
+.confirm-btn {
+  background: white;
+  color: black;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.confirm-btn:hover {
+  transform: scale(1.03);
+}
+.payment-box,
+.success-box {
+  background: #181818;
+  padding: 30px;
+  margin-top: 25px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.payment-options {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 25px 0;
+}
+
+.payment-options button {
+  background: #252525;
+  color: white;
+  border: 1px solid #555;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.payment-options button:hover {
+  background: white;
+  color: black;
+}
+
+.demo-note {
+  font-size: 13px;
+  opacity: 0.7;
+  margin-top: 18px;
+}
+
+.success-box {
+  border: 1px solid #555;
+}
+
+.ticket {
+  background: white;
+  color: black;
+  max-width: 350px;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.ticket h3 {
+  font-size: 24px;
+}
+
+.ticket p {
+  margin: 10px 0;
+}.payment-box,
+.success-box {
+  background: #181818;
+  padding: 30px;
+  margin-top: 25px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.payment-options {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 25px 0;
+}
+
+.payment-options button {
+  background: #252525;
+  color: white;
+  border: 1px solid #555;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.payment-options button:hover {
+  background: white;
+  color: black;
+}
+
+.demo-note {
+  font-size: 13px;
+  opacity: 0.7;
+  margin-top: 18px;
+}
+
+.success-box {
+  border: 1px solid #555;
+}
+
+.ticket {
+  background: white;
+  color: black;
+  max-width: 350px;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.ticket h3 {
+  font-size: 24px;
+}
+
+.ticket p {
+  margin: 10px 0;
+}
