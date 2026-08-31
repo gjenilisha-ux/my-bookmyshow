@@ -6,19 +6,20 @@ const movies = [
     title: "Kantara",
     genre: "Adventure • Drama",
     image:
-      "https://image.tmdb.org/t/p/w780/1XDDXPXGiI8id7MrUxK36ke7gkX.jpg",
+      <img src="/my-bookmyshow/images/kantara.jpg" />
+      
   },
   {
     title: "Baahubali 2",
     genre: "Action • Fantasy",
     image:
-      "https://image.tmdb.org/t/p/w780/6OMakI8V2yY7e6JQn0fV3v5qJ2X.jpg",
+      <img src="/my-bookmyshow/images/baahubali2.jpg" />
   },
   {
     title: "Pathu Thala",
     genre: "Action • Crime • Thriller",
     image:
-      "https://image.tmdb.org/t/p/w780/5QmJ8M3Yf5pQ8p7xX9n2V1Y6L8a.jpg",
+      <img src="/my-bookmyshow/images/pathu thala.jpg" />
   },
 ];
 
