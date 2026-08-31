@@ -589,3 +589,15 @@ body {
   }
 
 }
+.hero h1 {
+  font-size: clamp(45px, 6vw, 78px);
+  line-height: 1.05;
+  font-weight: 800;
+  color: #ffffff !important;
+  text-shadow: 0 2px 15px rgba(0, 0, 0, 0.8);
+}
+
+.hero h1 span {
+  color: #ff4b2b !important;
+  text-shadow: 0 0 18px rgba(255, 75, 43, 0.4);
+}
