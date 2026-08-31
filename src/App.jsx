@@ -12,7 +12,7 @@ const movies = [
     title: "Baahubali 2",
     genre: "Action • Fantasy",
     image:
-      <img src="/my-bookmyshow/images/baahubali2.jpg" />
+     <img src="public/images/baahubali2.jpg" />
   },
   {
     title: "Pathu Thala",
