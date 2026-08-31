@@ -6,7 +6,7 @@ const movies = [
     title: "Kantara",
     genre: "Adventure • Drama",
     image:
-      <img public="/images/kantara.jpg" />
+      src={`${import.meta.env.BASE_URL}images/kantara.jpg`}
   },
   {
     title: "Baahubali 2",
