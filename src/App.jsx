@@ -6,8 +6,7 @@ const movies = [
     title: "Kantara",
     genre: "Adventure • Drama",
     image:
-      <img src="/my-bookmyshow/images/kantara.jpg" />
-      
+      <img src="/images/kantara.jpg" />
   },
   {
     title: "Baahubali 2",
