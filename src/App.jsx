@@ -12,13 +12,13 @@ const movies = [
     title: "Baahubali 2",
     genre: "Action • Fantasy",
     image:
-      image: `${import.meta.env.BASE_URL}baahubali2.jpg`
+      `${import.meta.env.BASE_URL}baahubali2.jpg`
   },
   {
     title: "Pathu Thala",
     genre: "Action • Crime • Thriller",
     image:
-      image: `${import.meta.env.BASE_URL}pathu thala.jpg`
+      `${import.meta.env.BASE_URL}pathu thala.jpg`
   },
 ];
 
