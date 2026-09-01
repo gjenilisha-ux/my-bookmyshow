@@ -6,19 +6,19 @@ const movies = [
     title: "Kantara",
     genre: "Adventure • Drama",
     image:
-      <img src="public/images/kantara.jpg" alt="Kantara" />
+      "/kantara.jpg"
   },
   {
     title: "Baahubali 2",
     genre: "Action • Fantasy",
     image:
-    src={`${import.meta.env.BASE_URL}images/baahubali2.jpg`}
+       "/baahubali2.jpg"
   },
   {
     title: "Pathu Thala",
     genre: "Action • Crime • Thriller",
     image:
-      <img src="/my-bookmyshow/images/pathu thala.jpg" />
+      "/pathu thala.jpg"
   },
 ];
 
