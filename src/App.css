@@ -747,6 +747,7 @@ button {
 .theatre-heading h2 {
   font-size: 34px;
   margin-bottom: 12px;
+  color: white;
 }
 
 .theatre-heading > p:last-child {
